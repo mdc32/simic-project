@@ -71,7 +71,7 @@ textNode.prototype.write = function(isEnd) {
 	//
 	this.outputs.map((str) => {write(str);});
 	if (isEnd) {
-		$("#mainDiv").fadeOut(10000);
+		$("#mainDiv").delay(7000).fadeOut(3000);
 	}
 	
 };

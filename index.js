@@ -83,7 +83,7 @@ nodes[5] = new textNode(["%iThe future was like an unfriendly waiter standing re
 nodes[6] = new textNode(["%iThe future was like an unfriendly waiter standing ready to take their dinner order from a menu they could not read.", ""], [{inputs: [""], id: 0}]);
 
 nodes[7] = new textNode(["%iThe sunset over the approaching city was like a banquet in a madhouse", "You seat yourself in the chapel, looking up towards the vaulted ceilings. You bow your head and PRAY in complete peace and quiet."], [{inputs: ["pray"], id: 15}]);
-nodes[8] = new textNode(["%iThe sunset over the approaching city was like a banquet in a madhouse", "You avoid the chapel and WALK up the stairs to the office rooms, looking for anything interesting you can find."], [{inputs: ["WALK"], id: 17}]);
+nodes[8] = new textNode(["%iThe sunset over the approaching city was like a banquet in a madhouse", "You avoid the chapel and WALK up the stairs to the office rooms, looking for anything interesting you can find."], [{inputs: ["walk"], id: 17}]);
 nodes[9] = new textNode(["%iThe sunset over the approaching city was like a banquet in a madhouse", "You enter the restaurant, and are greeted warmly by the hostess. You ORDER orange chicken as usual, and take a seat awaiting your dish."], [{inputs: ["order"], id: 19}]);
 nodes[10] = new textNode(["%iThe sunset over the approaching city was like a banquet in a madhouse", "You walk further down the road, into the center of town. It is surprisingly busy for the nighttime. You SIT down on a bench near the fountain, observing everyone else around you."], [{inputs: ["sit"], id: 21}]);
 nodes[11] = new textNode(["%iThe sunset over the approaching city was like a banquet in a madhouse", ""], [{inputs: [""], id: 0}]);

@@ -10,7 +10,6 @@
 	var x = false;
 
 	for (i=0; i<options.length; i++) {
-		console.log(options[i]);
 		if (options[i].inputs.indexOf(txt.toLowerCase()) !== -1) {
 			currentNode = options[i].id;
 			nodes[currentNode].write((currentNode===33));

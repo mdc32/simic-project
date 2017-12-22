@@ -13,7 +13,7 @@
 		console.log(options[i]);
 		if (options[i].inputs.indexOf(txt.toLowerCase()) !== -1) {
 			currentNode = options[i].id;
-			nodes[currentNode].write();
+			nodes[currentNode].write((currentNode===33));
 			x = true;
 		}
 	}
@@ -68,9 +68,13 @@ var textNode = function(outputs, inputOptions) {
 	this.inputOptions = inputOptions;
 };
 
-textNode.prototype.write = function() {
+textNode.prototype.write = function(isEnd) {
 	//
 	this.outputs.map((str) => {write(str);});
+	if (isEnd) {
+		$(".row").delay(10000).fadeOut(5000);
+	}
+	
 };
 
 nodes[0] = new textNode(["%iNight after night thatched myself anew against the pending eraser", "As night falls, you lie awake with the sole company of your thoughts. Are you restless on a frigid WINTER night, or a warm SUMMER evening?"], [{inputs: ["summer"], id: 1}, {inputs: ["winter"], id: 1}]);

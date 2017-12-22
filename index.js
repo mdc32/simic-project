@@ -1,7 +1,7 @@
 ﻿var input = function () {  
 	
 	var txt = $("#input").val();
-
+	$("#input").val("");
 	if (txt === "" || currentNode === 33) return;
 
 	write("> " + txt);
@@ -21,7 +21,7 @@
 	  write("Things have gone awry... Please type one of the highlighted words");	
 	}
 
-	$("#input").val("");
+	
 
 };
 
@@ -71,7 +71,7 @@ textNode.prototype.write = function(isEnd) {
 	//
 	this.outputs.map((str) => {write(str);});
 	if (isEnd) {
-		$(".row").delay(10000).fadeOut(5000);
+		$(".row").fadeOut(10000);
 	}
 	
 };

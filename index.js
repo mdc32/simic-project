@@ -73,7 +73,7 @@ textNode.prototype.write = function() {
 	this.outputs.map((str) => {write(str);});
 };
 
-nodes[0] = new textNode(["%iNight after night thatched myself anew against the pending eraser", "As night falls, you lie awake with the sole company of your thoughts. Are you restless on a frigid WINTER night, or a warm SUMMER evening?"], [{inputs: ["summer"], id: 1}, {inputs: ["winter"], id: 2}]);
+nodes[0] = new textNode(["%iNight after night thatched myself anew against the pending eraser", "As night falls, you lie awake with the sole company of your thoughts. Are you restless on a frigid WINTER night, or a warm SUMMER evening?"], [{inputs: ["summer"], id: 1}, {inputs: ["winter"], id: 1}]);
 
 nodes[1] = new textNode(["%iThe little flags freshly posted in a cemetery said nothing as they hung listlessly in the early-summer breeze...", "You decide to take a walk to clear your head. As you pass a now-decrepit church, you feel a chill come over you. Do you ENTER or KEEP WALKING?", ""], [{inputs: ["enter"], id: 3}, {inputs: ["keep walking", "keep", "walking"], id: 4}]);
 nodes[2] = new textNode(["%iThat one remaining, barely moving leaf the wind couldn't get to fall all winter long from a bare tree...", "", ""], [{inputs: [""], id: 5}, {inputs: [""], id: 6}]);

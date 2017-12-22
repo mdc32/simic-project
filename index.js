@@ -91,9 +91,9 @@ nodes[12] = new textNode(["%iThe sunset over the approaching city was like a ban
 nodes[13] = new textNode(["%iThe sunset over the approaching city was like a banquet in a madhouse", ""], [{inputs: [""], id: 0}]);
 nodes[14] = new textNode(["%iThe sunset over the approaching city was like a banquet in a madhouse", ""], [{inputs: [""], id: 0}]);
 
-nodes[15] = new textNode(["%iThe dark sneaking up on me, to blow out the match in my hand.", "You feel a sudden pain in your heart, as if God has deemed you unworthy. You try to MOVE, wondering what has happened."], [{inputs: ["MOVE"], id: 32}]);
+nodes[15] = new textNode(["%iThe dark sneaking up on me, to blow out the match in my hand.", "You feel a sudden pain in your heart, as if God has deemed you unworthy. You try to MOVE, wondering what has happened."], [{inputs: ["move"], id: 32}]);
 nodes[16] = new textNode(["%iThe dark sneaking up on me, to blow out the match in my hand.", ""], [{inputs: [""], id: 0}]);
-nodes[17] = new textNode(["%iThe dark sneaking up on me, to blow out the match in my hand.", "You open yet another door, and discover a balcony overlooking the chapel. As you approach the railing, the floor suddenly gives way and you fall, landing on the ground among the pews."], [{inputs: ["fall"], id: 32}]);
+nodes[17] = new textNode(["%iThe dark sneaking up on me, to blow out the match in my hand.", "You open yet another door, and discover a balcony overlooking the chapel. As you approach the railing, the floor suddenly gives way and you FALL, landing on the ground among the pews."], [{inputs: ["fall"], id: 32}]);
 nodes[18] = new textNode(["%iThe dark sneaking up on me, to blow out the match in my hand.", ""], [{inputs: [""], id: 0}]);
 nodes[19] = new textNode(["%iThe dark sneaking up on me, to blow out the match in my hand.", "The dish arrives, and you start to eat. Your throat itches at first, then quickly progresses to a burning pain as it constricts. You FALL out of your chair soon after."], [{inputs: ["fall"], id: 31}]);
 nodes[20] = new textNode(["%iThe dark sneaking up on me, to blow out the match in my hand.", ""], [{inputs: [""], id: 0}]);
